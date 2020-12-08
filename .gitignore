@@ -1,0 +1,13 @@
+# #### debug
+# rm -rf _site rm -rf .jekyll-cache rm .jekyll-metadata
+# docker-compose up
+
+# #### deploy
+# gcloud config list
+# gcloud config set project slas-site
+# gcloud app deploy
+_site/
+_config.yml
+.gcloudignore
+.jekyll-metadata
+Gemfile.lock
