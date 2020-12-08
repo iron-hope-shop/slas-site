@@ -1,0 +1,20 @@
+nav:
+  - title: "Shop"
+    section: services
+
+  - title: "Fragrances"
+    section: portfolio
+
+  - title: "Non-Essential Oils"
+    section: noness
+
+  - title: "About"
+    section: timeline
+
+  # - title: "Team"
+  #   section: team
+
+  - title: "Contact"
+    section: contact
+  # - title: "Theme Source"
+  #   url: https://github.com/raviriley/agency-jekyll-theme/

@@ -1,0 +1,143 @@
+header:
+  title: Welcome to a familiar world of aromas
+  text: Smellin' Like a Snack
+  button: Tell Me More
+  buttonlink: "#services"
+
+services:
+  title: "Shop"
+  text: "We have the following offerings"
+  section: services
+  list:
+    - title: "Fragrances"
+      desc: "Scents for men, women, and anything in between."
+      icon: fas fa-air-freshener #find more at https://fontawesome.com/icons
+    - title: "Non-Essential Oils"
+      desc: "You really don't need these in your life but they might be good to have anyway. Endorsed by Dr. Cole."
+      icon: fas fa-wine-bottle
+    - title: "Product Information"
+      desc: "All of our products are crafted from the finest reagents by hipsters in lab coats."
+      icon: fas fa-info-circle
+
+portfolio:
+  title: "Fragrances"
+  text: "Here is a small taste of our offerings."
+  section: portfolio
+  closebutton: "Back to Fragrances"
+
+noness:
+  title: "Non-Essential Oils"
+  text: "You ~~don't~~ need these in your life."
+  section: noness
+  closebutton: "Back to Non-Essential Oils"
+
+timeline:
+  title: "About"
+  text: "Our timeline"
+  section: timeline
+  # left is the default
+  #start_align: "left"
+  events:
+    - title: "Our Humble Beginnings"
+      year: "2020"
+      desc: "We started by selling jars of water with cinnamon sticks in them from the back of a van in a K-Mart parking lot."
+      image: assets/img/timeline/1.jpg
+      alt:
+      # - title: "An Agency is Born"
+      #   year: "March 2011"
+      #   desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      #   image: assets/img/timeline/2.jpg
+      #   alt:
+      # - title: "Jekyll Theme is created"
+      #   year: "2019"
+      #   desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+      #   image: assets/img/timeline/3.jpg
+      #   alt: image alt text
+      # - title: "Title"
+      #   year: "2009-2011"
+      #   desc: "Your description here, **Markdown** is fully supported."
+      #   image: assets/img/timeline/4.jpg
+      #   alt:
+      # you can enforce the aligment
+      align: right
+  end: "Be Part <br> of Our <br> Story!"
+
+about:
+  title: "About Us"
+  text: "our story"
+  section: about
+
+# clients:
+#   section: clients
+#   max-height: 100px
+#   horizontal-scrolling: "" #"yes/no"
+#   list:
+#     - title: "envato"
+#       url: https://github.com/raviriley/agency-jekyll-theme
+#       logo: assets/img/clients/envato.jpg
+#     - title: "designmodo"
+#       url: https://github.com/raviriley/agency-jekyll-theme
+#       logo: assets/img/clients/designmodo.jpg
+#     - title: "themeforest"
+#       url: https://github.com/raviriley/agency-jekyll-theme
+#       logo: assets/img/clients/themeforest.jpg
+#     - title: "Creative Market"
+#       url: https://github.com/raviriley/agency-jekyll-theme
+#       logo: assets/img/clients/creative-market.jpg
+
+# team:
+#   title: "OUR AMAZING TEAM"
+#   text: "Lorem ipsum dolor sit amet consectetur."
+#   subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+#   section: team
+#   people:
+#     - name: "Kay Garland"
+#       role: "Lead Designer"
+#       image: assets/img/team/500x500.jpg
+#       social:
+#         - url: https://twitter.com
+#           icon: fab fa-twitter
+#         - url: https://facebook.com
+#           icon: fab fa-facebook-f
+#         - url: https://linkedin.com
+#           icon: fab fa-linkedin-in
+#     - name: "Larry Parker"
+#       role: "Lead Marketer"
+#       image: assets/img/team/2.jpg
+#       social:
+#         - url: https://twitter.com
+#           icon: fab fa-twitter
+#         - url: https://facebook.com
+#           icon: fab fa-facebook-f
+#         - url: https://linkedin.com
+#           icon: fab fa-linkedin-in
+#     - name: "Diana Perterson"
+#       role: "Lead Developer"
+#       image: assets/img/team/500x500.jpg
+#       social:
+#         - url: https://twitter.com
+#           icon: fab fa-twitter
+#         - url: https://facebook.com
+#           icon: fab fa-facebook-f
+#         - url: https://linkedin.com
+#           icon: fab fa-linkedin-in
+
+contact:
+  title: "Contact Us"
+  text: "We are here to help."
+  section: contact
+
+footer:
+  legal: "Privacy Policy"
+  social:
+    - url: /
+      icon: "fab fa-twitter"
+    - url: /
+      icon: "fab fa-facebook-f"
+    # - url: /
+    #   icon: "fab fa-linkedin-in"
+    # - url: /
+    #   icon: "fab fa-github"
+    - url: /
+      icon: "fab fa-instagram"
+# {{ site.data.sitetext.ex.ex | markdownify | default: example }}
