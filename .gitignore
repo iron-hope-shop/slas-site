@@ -11,3 +11,6 @@ _config.yml
 .gcloudignore
 .jekyll-metadata
 Gemfile.lock
+trash/
+.vscode
+.DS_Store
