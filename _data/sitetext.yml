@@ -136,8 +136,8 @@ footer:
       icon: "fab fa-facebook-f"
     # - url: /
     #   icon: "fab fa-linkedin-in"
-    # - url: /
-    #   icon: "fab fa-github"
+    - url: https://github.com/vGoldsmith/slas-site
+      icon: "fab fa-github"
     - url: /
       icon: "fab fa-instagram"
 # {{ site.data.sitetext.ex.ex | markdownify | default: example }}

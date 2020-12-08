@@ -1,2 +1,0 @@
-runtime: ruby27
-entrypoint: bundle exec jekyll serve -P $PORT --safe --skip-initial-build --no-watch --trace
